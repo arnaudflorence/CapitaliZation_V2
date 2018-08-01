@@ -1,0 +1,145 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #f7fff8, #d4dedc, #b7bcbe, #9b9c9e, #7e7e7e);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:right top;
+    background-size: cover;
+    background-size: 100%;
+}
+#main_wrapper{
+/*    top right bottom left */
+    margin:6% 10% 2% 10%;  
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 10px 40px black ;  
+}
+.card-body{
+    height: 700px;
+    overflow-y: scroll;
+    padding: 0% 1% 0% 1%;
+}
+#boutonMenu{
+    text-decoration: none;
+    color: black;
+}
+#titre-table{
+    font-size: 22px;    
+}
+table thead{
+    border-top-style:  solid;
+   border-top-color: black;
+   border-top-width: 3px;
+}
+
+#credit, #SoldePositif{
+    color:green;
+    font-weight: 700; 
+}
+#debit, #SoldePNegatif{
+    color: #af0606;
+    font-weight: 700; 
+}
+
+h1{
+    font-size:  28px;
+     padding: 1% 0% 0% 0%;
+}
+h2{
+    font-size:  20px;
+    float:  left;
+}
+h3{
+    font-size:  20px;
+    float:  right;
+    margin-right: 2%;
+    padding: 0% 0% 1% 0%;
+}
+#fixe{
+    background-color : rgba( 134, 224, 195, 0.8 );
+}
+p{
+    margin: 0% 0% 2% 10%;  
+    text-align: center;
+    padding: 0.5%;
+    font-weight: 700;
+    width:200px;
+}
+#bouton{
+margin-top: 3%;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+img {
+        height: 40px;
+}
+
+@media screen and (max-width: 900px){
+   #main_wrapper{
+    margin: 6% 1% 2% 1%;
+} 
+p{
+    margin: 0% 70% 2% 1%;  
+    text-align: center;
+    padding: 0.5%;
+    font-weight: 600;
+    font-size: 13px;
+}
+.card-body{
+    height: 450px;
+}
+    
+h1{
+  font-size: 20px;
+  font-weight: 750;
+
+}
+    
+h2{
+ font-size: 18px;
+  font-weight: 650;
+}
+
+#titre-table ,h3{
+    font-size: 18px;    
+}
+ 
+th{
+      font-size: 16px;
+        font-weight: 650;
+}
+td{
+      font-size: 16px;
+}}
+#bouton{
+margin-top: 1%;
+
+}
+
+@media screen and (max-width: 650px){
+body{
+    background-image:none;
+    background-color:#9b9c9e;
+}
+#main_wrapper{
+    margin: 10% 1% 2% 1%;
+} 
+h2, h3{
+    float: none;
+}
+#textBouton, i{
+    display: none;
+}}
+#textBouton, img {
+   height: 50px;
+}
+@media screen and (max-width: 400px){
+
+i{
+    display: none;
+}
+
+}

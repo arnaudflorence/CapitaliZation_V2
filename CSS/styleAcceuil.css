@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #f7fff8, #d4dedc, #b7bcbe, #9b9c9e, #7e7e7e);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:right top;
+    background-size: cover;
+    background-size: 100%;
+}
+#boutonMenu{
+    text-decoration: none;
+    color: black;
+}
+.bandeau img{
+
+    margin-top: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width:60%;
+}
+h1{
+    font-size: 45px;
+   margin-top: 7%;
+   text-align:center; 
+   font-weight: 700;
+}
+h2{
+    font-size: 35px;
+    text-align:center; 
+}
+#copiright{
+    text-align:center;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 900px){
+    
+    
+    h1{
+        font-size: 30px;
+        margin-top: 15%;
+        text-align:center; 
+        font-weight: 700;
+}
+    
+  h2{
+      font-size: 14px;
+        text-align:center; 
+}
+ 
+#copiright{
+    text-align:center;
+    font-size: 11px;
+    margin-top: 5%;
+}
+ .bandeau img{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+}  
+    
+}
+
+@media screen and (max-width: 500px){
+    body{
+    background-image:none;
+    background-color:#9b9c9e;
+}
+    
+    h1{
+        font-size: 23px;
+   margin-top: 30%;
+   text-align:center; 
+   font-weight: 700;
+}  
+  h2{
+      font-size: 14px;
+    text-align:center; 
+}
+#copiright{
+    text-align:center;
+    font-size: 11px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+ .bandeau img{
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+}  
+    
+}
